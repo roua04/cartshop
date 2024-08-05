@@ -1,0 +1,82 @@
+.carousel-item {
+    position: relative;
+    width: 100%; /* Largeur du conteneur */
+    height: 500px; /* Hauteur fixe du conteneur */
+  }
+  
+  .carousel-item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%; /* Hauteur du conteneur */
+    max-width: 100%; /* Largeur maximale du conteneur */
+    object-fit: cover; /* Recadre l'image pour remplir le conteneur */
+    border-radius: 10px; /* Coins arrondis */
+    border: 2px solid #ddd; /* Bordure */
+  }
+  
+
+.categorisBox {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f0e6ee;
+}
+
+.categorisBox a {
+    text-decoration: none;
+    color: #000;
+}
+
+.categorisContent {
+    padding: 20px 20px;
+}
+
+.categorisContent img {
+    object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #f0e6ee;
+}
+
+.categorisContent h4 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.productBox {
+    background-color: #f0e6ee;
+    padding: 30px 50px;
+    border-radius: 5px;
+}
+
+
+
+.productImg {
+    height: 200px;
+    width: 90%;
+}
+
+
+.productContent img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.productContent h4 {
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+
+.productLink {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px;
+}
